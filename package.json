@@ -2,18 +2,21 @@
   "name": "agora-audio-call",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<your-github-username>.github.io/<your-repo-name>",
+  "homepage": "https://kartheeknaiduch.github.io/voicecall",
   "dependencies": {
     "agora-rtc-sdk-ng": "^4.17.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "engines": {
+      "node": ">=18 <19"
+    }
   },
   "devDependencies": {
     "gh-pages": "^6.1.0",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0",
-    "tailwindcss": "^3.0.0"
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
